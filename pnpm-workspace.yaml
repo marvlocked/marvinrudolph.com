@@ -12,34 +12,33 @@ packages:
 
 catalogs:
   dev:
-    '@antfu/eslint-config': ^7.4.3
-    '@cloudflare/vite-plugin': ^1.25.0
-    '@eslint-react/eslint-plugin': ^2.12.4
+    '@antfu/eslint-config': ^7.7.2
+    '@cloudflare/vite-plugin': ^1.28.0
+    '@eslint-react/eslint-plugin': ^2.13.0
     '@total-typescript/tsconfig': ^1.0.4
-    '@types/node': ^25.2.3
+    '@types/node': ^25.5.0
     '@types/react': ^19.2.14
     '@types/react-dom': ^19.2.3
-    '@vitejs/plugin-react': ^5.1.4
-    eslint: ^9.39.2
-    eslint-plugin-format: ^1.4.0
+    '@vitejs/plugin-react': ^6.0.1
+    eslint: ^10.0.3
+    eslint-plugin-format: ^2.0.1
     eslint-plugin-react-hooks: ^7.0.1
-    eslint-plugin-react-refresh: ^0.5.0
-    turbo: ^2.8.7
+    eslint-plugin-react-refresh: ^0.5.2
+    turbo: ^2.8.17
     typescript: ^5.9.3
-    vite: ^7.3.1
-    vite-tsconfig-paths: ^6.1.1
-    wrangler: ^4.65.0
+    vite: ^8.0.0
+    wrangler: ^4.73.0
   prod:
-    '@hugeicons-pro/core-stroke-rounded': ^3.1.0
-    '@hugeicons/react': ^1.1.5
-    '@tailwindcss/vite': ^4.1.18
-    '@tanstack/react-router': ^1.159.5
-    '@tanstack/react-start': ^1.159.5
+    '@hugeicons-pro/core-stroke-rounded': ^4.0.0
+    '@hugeicons/react': ^1.1.6
+    '@tailwindcss/vite': ^4.2.1
+    '@tanstack/react-router': ^1.167.2
+    '@tanstack/react-start': ^1.166.13
     clsx: ^2.1.1
-    motion: ^12.34.0
+    motion: ^12.36.0
     react: ^19.2.4
-    react-aria-components: ^1.15.1
+    react-aria-components: ^1.16.0
     react-dom: ^19.2.4
-    tailwind-merge: ^3.4.0
-    tailwindcss: ^4.1.18
+    tailwind-merge: ^3.5.0
+    tailwindcss: ^4.2.1
     zod: ^4.3.6

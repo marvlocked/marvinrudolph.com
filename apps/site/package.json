@@ -31,7 +31,6 @@
     "@types/react-dom": "catalog:dev",
     "@vitejs/plugin-react": "catalog:dev",
     "vite": "catalog:dev",
-    "vite-tsconfig-paths": "catalog:dev",
     "wrangler": "catalog:dev"
   }
 }
