@@ -12,7 +12,11 @@ export default defineConfig({
   plugins: [
     cloudflare({ viteEnvironment: { name: 'ssr' } }),
     tsConfigPaths(),
-    tanstackStart(),
+    tanstackStart({
+      router: {
+        generatedRouteTree: './route-tree.gen.ts',
+      },
+    }),
     viteReact(),
     tailwindcss(),
   ],

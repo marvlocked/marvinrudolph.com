@@ -5,7 +5,7 @@ export default antfu(
     formatters: true,
     react: true,
     ignores: [
-      '**/routeTree.gen.ts',
+      '**/route-tree.gen.ts',
     ],
     rules: {
       // Bug for false-positives
