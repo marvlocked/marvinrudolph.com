@@ -23,7 +23,7 @@ Personal portfolio site for Marvin Rudolph (marvinrudolph.com). A monorepo with 
 - **Framework**: TanStack Start (SSR React meta-framework)
 - **Routing**: TanStack React Router (file-based, generated route tree)
 - **UI**: React 19
-- **Build**: Vite 7
+- **Build**: Vite 8
 - **Styling**: Tailwind CSS v4
 - **Animations**: Motion (motion/react)
 - **Icons**: HugeIcons Pro (stroke-rounded variant)
@@ -34,7 +34,7 @@ Personal portfolio site for Marvin Rudolph (marvinrudolph.com). A monorepo with 
 
 ### Package Manager
 
-**pnpm** (v10.29.3). Always use `pnpm add`, `pnpm install`, `pnpm run`, `pnpx`. Never use npm, yarn, or bun. Dependency versions are managed through pnpm catalogs (`catalog:dev`, `catalog:prod`) defined in `pnpm-workspace.yaml`.
+**pnpm** (v10.32.1). Always use `pnpm add`, `pnpm install`, `pnpm run`, `pnpx`. Never use npm, yarn, or bun. Dependency versions are managed through pnpm catalogs (`catalog:dev`, `catalog:prod`) defined in `pnpm-workspace.yaml`.
 
 ## Conventions
 
@@ -43,7 +43,7 @@ Personal portfolio site for Marvin Rudolph (marvinrudolph.com). A monorepo with 
 - Components: `kebab-case.tsx` (e.g. `theme-toggle.tsx`, `default-catch-boundary.tsx`)
 - Routes: `index.tsx`, `imprint.tsx`, `__root.tsx` — standard TanStack Router file conventions
 - Utilities: `lib/utils.ts`
-- Styles: `styles/tailwind.css`, `styles/fonts.css`
+- Styles: `styles/tailwind.css`
 - Generated files: `route-tree.gen.ts` (never edit manually, ignored by ESLint)
 
 ### Imports
@@ -75,7 +75,7 @@ Personal portfolio site for Marvin Rudolph (marvinrudolph.com). A monorepo with 
 - Dark mode via `.dark` class on `<html>`, toggled by `ThemeProvider`
 - `cn()` utility (clsx + tailwind-merge) for conditional class composition
 - Neutral color palette as base, accent color `#34E969`
-- Fonts: InterVariable (sans), Erode (serif)
+- Font: Geist Variable (sans) via `@fontsource-variable/geist`, imported in `tailwind.css`
 
 ### Animations
 
