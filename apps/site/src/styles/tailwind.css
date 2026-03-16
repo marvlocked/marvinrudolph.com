@@ -1,8 +1,8 @@
+@import '@fontsource-variable/geist';
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'InterVariable', sans-serif;
-  --font-serif: 'Erode', serif;
+  --font-sans: 'Geist Variable', sans-serif;
   --animate-wiggle: wiggle 2000ms infinite;
   --animate-wiggle-fast: wiggle 500ms forwards;
   --color-accent: #34E969;

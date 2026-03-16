@@ -11,6 +11,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "catalog:prod",
     "@hugeicons-pro/core-stroke-rounded": "catalog:prod",
     "@hugeicons/react": "catalog:prod",
     "@tailwindcss/vite": "catalog:prod",

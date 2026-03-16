@@ -9,7 +9,6 @@ import {
 import { createServerFn } from '@tanstack/react-start'
 import { getCookie } from '@tanstack/react-start/server'
 import { DefaultCatchBoundary, NotFound } from '~/components/index.tsx'
-import fontsCss from '~/styles/fonts.css?url'
 import tailwindCss from '~/styles/tailwind.css?url'
 import { ThemeProvider } from '~/theme-context.tsx'
 
@@ -103,7 +102,6 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      { rel: 'stylesheet', href: fontsCss },
       { rel: 'stylesheet', href: tailwindCss },
       { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
       { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
