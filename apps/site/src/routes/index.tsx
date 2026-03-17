@@ -1,4 +1,4 @@
-import { ArrowUpRight01Icon, GithubIcon, Mail01Icon, NewTwitterIcon, WavingHand01Icon } from '@hugeicons-pro/core-stroke-rounded'
+import { ArrowUpRight01Icon, GithubIcon, Linkedin, Mail01Icon, NewTwitterIcon, WavingHand01Icon } from '@hugeicons-pro/core-stroke-rounded'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { createFileRoute } from '@tanstack/react-router'
 import { motion } from 'motion/react'
@@ -56,7 +56,7 @@ function RouteComponent() {
           Let's connect! :)
         </motion.h2>
         <motion.div
-          className="flex items-center gap-4"
+          className="flex items-center gap-4 flex-wrap"
           initial={{ opacity: 0, y: 15, filter: 'blur(5px)' }}
           animate={{ opacity: 1, y: 0, filter: 'none' }}
           transition={{ duration: 0.4, ease: 'easeOut', delay: 0.8 }}
@@ -88,6 +88,20 @@ function RouteComponent() {
               className="group-hover:animate-wiggle-fast"
             />
             X (Twitter)
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marvin-rudolph-a8112a2a6"
+            className="transition-colors inline-flex items-center gap-1.5 font-medium group hover:text-neutral-900 dark:hover:text-neutral-100"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <HugeiconsIcon
+              icon={Linkedin}
+              size="1rem"
+              strokeWidth={2}
+              className="group-hover:animate-wiggle-fast"
+            />
+            LinkedIn
           </a>
           <a
             href="mailto:hi@marvinrudolph.com"
