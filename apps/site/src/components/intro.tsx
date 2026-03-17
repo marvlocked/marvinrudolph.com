@@ -1,3 +1,5 @@
+import { Location01Icon, RemoteControlIcon, TimelineIcon } from '@hugeicons-pro/core-stroke-rounded'
+import { HugeiconsIcon } from '@hugeicons/react'
 import { motion } from 'motion/react'
 import { useEffect, useRef, useState } from 'react'
 import profilePicture from '~/assets/marvin-rudolph.webp'
@@ -125,11 +127,30 @@ export function Intro() {
           <p>Full-Stack Engineer</p>
         </div>
       </motion.header>
+      <motion.div
+        className="flex items-center gap-x-4 gap-y-2 flex-wrap mb-4"
+        initial={{ opacity: 0, y: 15, filter: 'blur(5px)' }}
+        animate={{ opacity: 1, y: 0, filter: 'none' }}
+        transition={{ duration: 0.4, ease: 'easeOut', delay: 0.2 }}
+      >
+        <div className="flex items-center gap-1.5">
+          <HugeiconsIcon icon={Location01Icon} size="1rem" strokeWidth={2} />
+          Germany
+        </div>
+        <div className="flex items-center gap-1.5">
+          <HugeiconsIcon icon={TimelineIcon} size="1rem" strokeWidth={2} />
+          10+ years of experience
+        </div>
+        <div className="flex items-center gap-1.5">
+          <HugeiconsIcon icon={RemoteControlIcon} size="1rem" strokeWidth={2} />
+          Full Remote
+        </div>
+      </motion.div>
       <motion.p
         className="leading-relaxed"
         initial={{ opacity: 0, y: 15, filter: 'blur(5px)' }}
         animate={{ opacity: 1, y: 0, filter: 'none' }}
-        transition={{ duration: 0.4, ease: 'easeOut', delay: 0.2 }}
+        transition={{ duration: 0.4, ease: 'easeOut', delay: 0.3 }}
       >
         Experienced Full-Stack Engineer
         {' '}
