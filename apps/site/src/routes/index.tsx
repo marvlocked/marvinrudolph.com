@@ -62,7 +62,7 @@ function RouteComponent() {
           transition={{ duration: 0.4, ease: 'easeOut', delay: 0.8 }}
         >
           <a
-            href="https://github.com/marvlocked"
+            href="https://github.com/lockinmarv"
             className="transition-colors inline-flex items-center gap-1.5 font-medium group hover:text-neutral-900 dark:hover:text-neutral-100"
             target="_blank"
             rel="noopener noreferrer"
@@ -76,7 +76,7 @@ function RouteComponent() {
             GitHub
           </a>
           <a
-            href="https://x.com/marvlocked"
+            href="https://x.com/lockinmarv"
             className="transition-colors inline-flex items-center gap-1.5 font-medium group hover:text-neutral-900 dark:hover:text-neutral-100"
             target="_blank"
             rel="noopener noreferrer"
